@@ -15,12 +15,12 @@ namespace PierwszyProjektConsolowy
 
         public static void AddTwoNumbers(int a, int b)
         {
-            Console.WriteLine(a + b);
+            Console.WriteLine("wynik dodoawania: " + a + b);
         }
 
         public static void MulltiplyThreeNumbers(int a, int b, int c) 
         {
-            Console.WriteLine(a * b * c);
+            Console.WriteLine("wynik mnożenia: " + a * b * c);
         }
     }
 }
