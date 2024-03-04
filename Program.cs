@@ -12,6 +12,7 @@ namespace PierwszyProjektConsolowy
         {
             Console.WriteLine("Hello");
             Console.WriteLine("Hello World!");
+            Utility.Hello();
             Console.ReadKey();
         }
     }
