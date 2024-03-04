@@ -13,6 +13,8 @@ namespace PierwszyProjektConsolowy
             Console.WriteLine("Hello");
             Console.WriteLine("Hello World!");
             Console.WriteLine(Dodaj(2, 5));
+            Utility.AddTwoNumbers(4, 6);
+            Utility.MulltiplyThreeNumbers(3, 4, 1);
             Console.ReadKey();
         }
 
