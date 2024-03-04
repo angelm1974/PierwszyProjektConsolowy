@@ -18,9 +18,9 @@ namespace PierwszyProjektConsolowy
             return (int)(a + b);
         }
 
-        public static void MulltiplyThreeNumbers(int a, int b) 
+        public static void MulltiplyThreeNumbers(int a, int b, int c) 
         {
-            return (int)(a * b);
+            return (int)(a * b * c);
         }
     }
 }
