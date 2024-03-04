@@ -13,10 +13,14 @@ namespace PierwszyProjektConsolowy
             Console.WriteLine("Hello from utility");
         }
 
-        public static void AddTwoNumbers()
-        { }
+        public static void AddTwoNumbers(int a, int b)
+        {
+            return (int)(a + b);
+        }
 
-        public static void MulltiplyThreeNumbers() 
-        { }
+        public static void MulltiplyThreeNumbers(int a, int b) 
+        {
+            return (int)(a * b);
+        }
     }
 }
