@@ -12,8 +12,19 @@ namespace PierwszyProjektConsolowy
         {
             Console.WriteLine("Hello");
             Console.WriteLine("Hello World!");
-            Utility.Hello();
+            Console.WriteLine(Dodaj(2, 5));
             Console.ReadKey();
+        }
+
+        /// <summary>
+        /// Dodaje dwie liczby całkowite i zwraca ich sumę.
+        /// </summary>
+        /// <param name="liczba1">Pierwsza liczba do dodania.</param>
+        /// <param name="liczba2">Druga liczba do dodania.</param>
+        /// <returns>Suma dwóch liczb całkowitych.</returns>
+        static int Dodaj(int liczba1, int liczba2)
+        {
+            return (int)(liczba1 + liczba2);
         }
     }
 }
